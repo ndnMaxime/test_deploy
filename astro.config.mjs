@@ -6,11 +6,12 @@ import UnoCSS from "@unocss/astro";
 import icon from "astro-icon";
 
 import solidJs from "@astrojs/solid-js";
-import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
+import { remarkReadingTime } from "./src/lib/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gianmarco.xyz/",
+  site: 'https://ndnMaxime.github.io',
+  base: '/folio_maximendn ',
   integrations: [
     sitemap(),
     robotsTxt({
